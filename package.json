@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && perl -pi -e 's/\\/assets/assets/g' dist/index.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "nuke": "vite --force"
@@ -13,7 +13,8 @@
   "dependencies": {
     "axios": "^1.7.9",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sed": "^0.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

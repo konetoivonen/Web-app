@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+body
+{
+  background: url('https://www.visitrovaniemi.fi/wp-content/uploads/Santa-Claus-Santa-Claus-Office-Santa-Claus-Village-Christmas-Rovaniemi-Lapland-Finland-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

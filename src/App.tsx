@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
-import ProductList from "./ProductList";
+import KirkkoAPI from "./KirkkoAPI";
 
 function App() {
   // Asetetaan cookie
@@ -75,10 +75,8 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
         <p>
+        <KirkkoAPI />
         </p>
-        <p>
-        <ProductList />
-      </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
