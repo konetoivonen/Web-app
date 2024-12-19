@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyASHf9tsPzzcVlXqSn8wxHesbWluUcHn90",
+  apiKey: "SECRET",
   authDomain: "pilvi-react-7b806.firebaseapp.com",
   projectId: "pilvi-react-7b806",
   storageBucket: "pilvi-react-7b806.firebasestorage.app",
